@@ -1,0 +1,18 @@
+
+Clase Viaje {
+   void calcularDemoraAproxEnMinsConParadas(CalculadorDeDemora calculadorDemora, CalculadorDeDstancia calculadorDistancia){
+      if (paradas.all(parada => parada.estaDemorada()) {
+              tiempoDemora = paradas.sum(parada => parada.calcularDemoraAproxEnMins(CalculadorDeDemora calculadorDemora);
+               
+      }
+      else {
+              tiempoDemora = this.calcularDemoraAproxEnMins(CalculadorDeDemora calculadorDemora);
+     }
+     this.demoraRealEnMins = tiempoDemora;
+
+}
+
+Clase Parada{
+   void calcularDemoraAproxEnMins(CalculadorDeDemora calculadorDemora){
+      calculadorDemora.demoraAproximadaEnMins(this.origen,this.destino) + this.demoraEnMinutos();
+}
